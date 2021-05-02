@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.contianer{
+    width: 900px;
+    height: 300px;
+    display: flex;
+   margin: 0 auto;
+   background-color:white;
+   margin-top: 100px;
+   text-align: center;
+   padding: 15px 15px;
+}
+.divlar{
+    width: 300px;
+    
+}
+.divlar:hover{
+    background-color:ghostwhite;
+}
+h3{
+    padding-top: 10px;
+    color: blue;
+    letter-spacing: 3px;
+}
+p{
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    color:grey;
+    padding-bottom: 20px;
+}
+h2{
+    color:blue;
+}
+.p-2{
+    color:blue;
+}
+.div{
+  
+  display: flex;
+ width: 100px;
+ margin: 0 auto;
+}

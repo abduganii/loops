@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="contianer">
+        <div class="left">
+            <h1 class="h1-left">Get in Touch</h1>
+            <p class="p-left">Feel free to contact us on your queries and we get back to you as soon as possible.</p>
+        </div>
+        <div class="right">
+            <h2>Send us a Massage</h2>
+            <h2 class="right-h2">Contact Info</h2>
+            <form action="https://echo.htmlacademy.ru" method="POST">
+                <input id="post" name="name" type="text" placeholder="Name" required>
+                <input id="post" name="email" type="Email" placeholder="Email">
+                <input id="post" name="mobile" type="Mobile" placeholder="Mobile" required>
+                <p>Prefered mode of Communication</p>
+                <input id="check" name="choose" value="email" type="radio">
+                <label for="check">Email</label>
+                <input for id="chec" name="choose" value="tel" type="radio">
+                <label for="chec">Phone</label>
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
